@@ -142,18 +142,23 @@ special_mode_mask values:
       <ISPPreview>s5k3p8sp_snapshot_wchat</ISPPreview>
       <ISPSnapshot>s5k3p8sp_snapshot_wchat</ISPSnapshot>
       <CPPPreview>s5k3p8sp_cpp_preview_wchat</CPPPreview>
+      <CPPVideo>s5k3p8sp_cpp_preview_wchat</CPPVideo>
       <A3Preview>s5k3p8sp_a3_default_preview_wchat_truly</A3Preview>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="0" special_mode_mask="OPPO_OTHERAPK">
+      <ISPCommon>s5k3p8sp_common_otherapk</ISPCommon>
       <ISPPreview>s5k3p8sp_snapshot_otherapk_remosaic</ISPPreview>
-      <ISPSnapshot>s5k3p8sp_snapshot_otherapk_remosaic</ISPSnapshot>	
+      <ISPSnapshot>s5k3p8sp_snapshot_otherapk_remosaic</ISPSnapshot>
       <CPPPreview>s5k3p8sp_cpp_preview_otherapk</CPPPreview>
+      <CPPVideo>s5k3p8sp_cpp_preview_otherapk</CPPVideo>
       <CPPSnapshot>s5k3p8sp_cpp_snapshot_otherapk_remosaic</CPPSnapshot>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="OPPO_OTHERAPK">
+      <ISPCommon>s5k3p8sp_common_otherapk</ISPCommon>
       <ISPPreview>s5k3p8sp_snapshot_otherapk</ISPPreview>
-      <ISPSnapshot>s5k3p8sp_snapshot_otherapk</ISPSnapshot>	
+      <ISPSnapshot>s5k3p8sp_snapshot_otherapk</ISPSnapshot>
       <CPPPreview>s5k3p8sp_cpp_preview_otherapk</CPPPreview>
+      <CPPVideo>s5k3p8sp_cpp_preview_otherapk</CPPVideo>
       <CPPSnapshot>s5k3p8sp_cpp_snapshot_otherapk</CPPSnapshot>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="OPPO_CMCC">

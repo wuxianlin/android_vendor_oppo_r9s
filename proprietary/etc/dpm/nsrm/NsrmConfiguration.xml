@@ -29,8 +29,10 @@
     <!--#ifdef VENDOR_EDIT-->
     <!--Yuanhua.Du@PSRD.Network.Data, 2016/08/19, Add for Bug837222-->
     <AppName>com.coloros.pictorial</AppName>
-    <!--Yuanhua.Du@NW.AP.Cfg.856477, 2016/09/26, Add for NSRM wrong block issue-->
-    <AppName>com.tencent</AppName>
+    <!--Yongyao.Song@NW.AP.Cfg.910991, 2017/01/20, Add for NSRM wrong block issue-->
+    <AppName>com.tencent.mm</AppName>
+    <AppName>com.tencent.mobileqq</AppName>
+    <AppName>com.sdu.didi.gsui</AppName>
     <!--#endif-->
     </AppList>
     <!-- Example MCC_MNC configuration
@@ -66,7 +68,8 @@
     <!-- Minimum connect counts. Range: [0 - 100] -->
     <MinThr>5</MinThr>
 
-    <!-- Time margin. Default 60s. Range: [1 - 1800] -->
+    <!-- Time margin to wait before entering learning mode.
+         Default 60s. Range: [1 - 1800] -->
     <TMargin>60</TMargin>
 
     <!-- Minimum time idle. Default 10 min (600s). Range: [1 - 3600] -->
@@ -75,7 +78,9 @@
     <!-- Time for query. Default 5 min (300s). Range: [60 - 3600] -->
     <TQuery>300</TQuery>
 
-    <!-- Decision made time threshold. Default 5 days (432000s). Range: [1 - 31,536,000] -->
+    <!-- Decision made time threshold. If an app gets updated we consider it
+         valid only if it was taken within this threshold value.
+         Default 5 days (432000s). Range: [1 - 31,536,000] -->
     <TDmThreshold>432000</TDmThreshold>
 
     <!-- Recheck threshold. Default 1.1 Range: [1.0 - 10.0] -->

@@ -86,6 +86,7 @@ LensInfo : Information of the lens present in the module.
 <CameraConfigurationRoot>
 <!-- #ifdef VENDOR_EDIT  -->
 <!-- Add by Zhengrong.Zhang@Camera 20160612 for camera  -->
+
     <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx398</SensorName>

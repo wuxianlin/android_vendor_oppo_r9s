@@ -90,7 +90,8 @@ special_mode_mask values:
       <ISPVideo>imx398_snapshot</ISPVideo>
       <CPPPreview>imx398_cpp_preview</CPPPreview>
       <CPPSnapshot>imx398_cpp_snapshot</CPPSnapshot>
-      <CPPCustom>imx398_cpp_custom</CPPCustom>     
+      <CPPCustom>imx398_cpp_custom</CPPCustom>
+      <CPPFace>imx398_cpp_face</CPPFace>
       <CPPVideo>imx398_cpp_video</CPPVideo>
       <CPPLiveshot>imx398_cpp_liveshot</CPPLiveshot>
       <A3Preview>imx398_zsl_preview</A3Preview>
@@ -112,9 +113,9 @@ special_mode_mask values:
       <A3Video>imx398_default_video_cmcc</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
-      <ISPPreview>imx398_snapshot</ISPPreview>
+      <ISPPreview>imx398_video</ISPPreview>
       <ISPSnapshot>imx398_snapshot</ISPSnapshot>
-      <ISPVideo>imx398_snapshot</ISPVideo>
+      <ISPVideo>imx398_video</ISPVideo>
       <CPPPreview>imx398_cpp_preview</CPPPreview>
       <CPPSnapshot>imx398_cpp_snapshot</CPPSnapshot>
       <CPPVideo>imx398_cpp_video</CPPVideo>
@@ -145,15 +146,31 @@ special_mode_mask values:
       <A3Preview>imx398_default_preview</A3Preview>
       <A3Video>imx398_default_video</A3Video>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_WECHAT">
+      <CPPPreview>imx398_cpp_preview_wchat</CPPPreview>
+      <CPPVideo>imx398_cpp_preview_wchat</CPPVideo>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_SPECIAL">
+      <CPPPreview>imx398_cpp_preview_special</CPPPreview>
+      <CPPSnapshot>imx398_cpp_snapshot_special</CPPSnapshot>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="OPPO_SPECIAL">
       <ISPPreview>imx398_preview_special</ISPPreview>
       <ISPSnapshot>imx398_preview_special</ISPSnapshot>
       <CPPPreview>imx398_cpp_preview_special</CPPPreview>
       <CPPSnapshot>imx398_cpp_snapshot_special</CPPSnapshot>
       <A3Preview>imx398_special_a3_preview</A3Preview>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_WECHAT">
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="OPPO_WECHAT">
       <CPPPreview>imx398_cpp_preview_wchat</CPPPreview>
+      <CPPVideo>imx398_cpp_preview_wchat</CPPVideo>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="OPPO_ENGINEER_MODE">
+      <ISPPreview>imx398_preview_engineer_mode</ISPPreview>
+      <ISPSnapshot>imx398_preview_engineer_mode</ISPSnapshot>
+      <CPPPreview>imx398_cpp_preview_engineer_mode</CPPPreview>
+      <CPPSnapshot>imx398_cpp_snapshot_engineer_mode</CPPSnapshot>
+      <A3Preview>imx398_a3_preview_engineer_mode</A3Preview>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_GIF">
       <CPPSnapshot>imx398_cpp_snapshot_special</CPPSnapshot>
